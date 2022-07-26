@@ -1,0 +1,19 @@
+1) Which one of the following returns a copy of a list?
+
+ans) reversed()
+
+reversed()는 list의 순서가 뒤바뀐 list를 반환한다.
+
+2) Which ond of these extension functions on 
+	class AquariumPlant(val color: String, val size: Int, private val cost: double, val leafy: Boolean)
+will give a compile error?
+
+ans) fun AquariumPlant.isExpensive() = cost > 10.00
+
+cost가 private으로 선언되었기 때문에 오류가 난다.
+
+3) Which one of the following is not a place where you can define constants with const val?
+
+ans) in companion objects
+
+companion object에서 const val로 변수를 선언할 수 있다.

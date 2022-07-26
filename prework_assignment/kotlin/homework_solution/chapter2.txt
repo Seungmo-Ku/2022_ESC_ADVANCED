@@ -1,0 +1,16 @@
+1. Which of the following declares an unchangeable list of things?
+ans) val school = listOf("shark", "salmon", "minnow")
+
+바꿀 수 없는 list이므로 val, listOf로 선언해야함
+
+2. What will be the output of the following code? 
+	-> for (i in 3..8 step 2) print(i)
+ans)357
+
+3~8에서 2씩 증가이므로
+3, 5, 7 순서대로 print
+
+3. What os the purpose of the question mark in this code? 
+	-> var rocks: Int? = 3
+ans) The variable rocks can be set to null
+

@@ -1,0 +1,21 @@
+1) In Kotlin, SAM stands for:
+
+ans) Single Abstract Method
+
+2) Which one of the following is not a Kotlin Standard Library extension function?
+
+ans) elvis()
+
+apply, run, with은 모두 Kotlin Standard Library extension function이다. 
+
+3) Which one of the following is not true of lambdas in Kotlin?
+
+ans) Lambdas are resource intensive and shouldn't be used.
+
+lambda는 useful하고 resource intensive 하지 않다.
+
+4) Labels in Kotlin are indicated with an identifier followed by:
+
+ans) @
+
+label은 @ identifier가 붙는 형태를 지닌다.

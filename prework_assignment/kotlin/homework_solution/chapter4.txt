@@ -1,0 +1,29 @@
+1) Classes have a special method that serves as a blueprint for creating objects of that class. What is method called?
+
+ans) A constructor
+
+2) Which of the following statements about interfaces and abstract classes is NOT correct?
+
+ans) Interfaces and abstract classes can be instantiated directly.
+
+interface와 abstract class는 자체로 정의될 수 없음.
+
+3) Which of the following is NOT a kotlin visibility modifier for properties, methods, etc. ?
+
+ans) nosubclass
+
+nosubclass 라는 visibility modifier는 존재하지 않음.
+
+4) Consider this data class: 
+	data class Fish(val name: String, val species: String, val colors: String)
+Which of the following is NOT valid code to create and destructure a Fish object?
+
+ans) val(name4, species4, colors4) = Fish("Harry", "hailbut")
+
+인자가 세개인데 두개만 주어졌기 때문에 오류가 발생한다.
+
+Let's say you own a zoo with lots of animals that all need to be taken care of. Which of the following would NOT be part of implementing caretaking?
+
+ans) An interface for giving clean water to an animal.
+
+interface가 아니라 class를 통해  구현이 가능할 것 같다.

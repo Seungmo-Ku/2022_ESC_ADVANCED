@@ -1,0 +1,12 @@
+1. Which of the following is NOT a benefit of using the Kotlin language?
+ans) Your code compiles faster in Kotlin.
+
+빠른 속도는 코틀린의 장점이라고 할 수 없다.
+
+2. How do you start the Kotlin REPL?
+ans) Create a Kotlin project in intelliJ IDEA, then select Tools > Kotlin > Kotlin REPL
+
+3. Which of the following is NOT true about Kotlin and Java code?
+ans) Kotlin code will run faster than Java code.
+
+코틀린 코드가 자바 코드보다 빨리 컴파일된다는 언급은 없다.

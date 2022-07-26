@@ -1,0 +1,27 @@
+1) The contains(element: String) function returns true if the string element is contained in the string it's called on. 
+	What will be the output of the following code?
+
+val decoratins = listOf("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+println(decorations.filter {it.contains('p')})
+
+Ans) [pagoda, plastic plant, flowerpot]
+
+p를 포함하면 true를 반환하는 필터를 사용했으므로
+
+2) In the follwing function definition, which one of the parameters is required?
+
+fun shouldChangeWater(day: String, temperature: Int = 22, dirty: Int = 20, numDecorations: Int = 0): Boolean {...}
+
+Ans) day
+
+day만 default value가 정해지지 않았으므로 day값이 필요하다
+
+3) You can pass a regular named function (not the result of calling it) to another function. How would you pass 
+	increaseDirty(start: Int) = start + 1
+	to
+	updateDirty(dirty: Int, operation: (Int) -> Int ?
+	
+Ans) updateDirty(15, ::increaseDirty)
+
+
+increaseDirty가 regular named function 이므로 attach :: 
